@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6a0dad;
+    color: white;
+    padding: 10px; /* Reduced padding */
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.5em; /* Reduced font size */
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 1.2em;
+    color: #6a0dad;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #6a0dad;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #4b0082;
+}
+
+#imageContainer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #6a0dad;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.generating-message {
+    color: #ff69b4; /* Hot pink color */
+    font-weight: bold;
+}
+
+.loading-circle {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #6a0dad; /* Violet */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
