@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Generation By Jana</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function showGeneratingMessage() {
+            const imageContainer = document.getElementById('imageContainer');
+            imageContainer.innerHTML = '<div class="loading-circle"></div><p class="generating-message">Image is generating!</p>';
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const generateButton = document.getElementById('generateButton');
+            generateButton.addEventListener('click', showGeneratingMessage);
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>IMAGE GENERATOR Using Bedrock Stable Diffusion Model</h1>
+    </header>
+    <main>
+        <div class="container">
+            <label for="prompt">Enter prompt for image generation:</label>
+            <textarea id="prompt" rows="4" cols="50" placeholder="Describe the image you want to generate..."></textarea>
+            <button id="generateButton">Generate Image</button>
+        </div>
+        <div id="imageContainer">
+            <!-- Generated image will appear here -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Jana's Image Generator</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
