@@ -68,6 +68,9 @@ This Project demonstrates Creating the High Quality dynamic Image based on user 
 ## Key Learning Outcomes:
 1. Created the VPC from scratch with public and private subnets across multiple availibility zones for Highly secure, Available and Fault tolerant Solutions.
 
+![image](https://github.com/user-attachments/assets/74713855-8f53-4c26-9375-08db1358ebc6)
+
+
 2. Created the docker image for the static application and pushed the docker image to Elastic Conatiner Registry(ECR)
 
 3. Created the Elastic Container Service Cluster for deploying the Containerized application.
@@ -76,16 +79,29 @@ This Project demonstrates Creating the High Quality dynamic Image based on user 
 
 5. Created the ECS tasks which contain the OS specification, Memory, Network for the container to run.
 
+![image](https://github.com/user-attachments/assets/ca18126a-36fa-444a-8ccc-ef95d74f3842)
+
+
 6. Created and configured Elastic Container Service for running the ECS tasks and used auto scaling for the tasks scalibility.
+
+![image](https://github.com/user-attachments/assets/9a8e78df-34e4-4136-b4cd-19e42e15e7e4)
+
 
 7. Created and configued the Load balancer to route traffic to the ECS.
 
+![image](https://github.com/user-attachments/assets/1a736191-b073-4a0d-afcc-02f3bfbc10bb)
+
+
 8. Created the Lambda service which contain python invokes the Stability diffusion model and stores the image in S3.
+
+![image](https://github.com/user-attachments/assets/2b2a87a0-6b0e-4187-b90f-7df670f52b89)
+
 
 9. Lambda is fronted with API gateway which helps in creating the API.
 
 10. Generated the Presigned URL with the help of S3 and provided to the frontend(ECS fargate)
 
+![image](https://github.com/user-attachments/assets/9c5a295a-ea23-4030-96be-996ac85bc353)
 
 ## Conclusion:
 This AI image generation service leverages Amazon Bedrock’s Stable Diffusion model to generate high-quality images based on user prompts. From infrastructure design to deployment, this project showcases how scalable cloud architecture can power AI-driven applications.
