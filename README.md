@@ -1,4 +1,4 @@
-# Bedrock-Stable-Diffusion-Model-Image-Generator
+# Bedrock-Stable-Diffusion-Model-Image-Generator-with-ECS
 Generate the High Image using Amazon Bedrock Stable diffusion Model
 
 -------------------------------------------------------------------
